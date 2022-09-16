@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Unit test coverage
+coverage.out
+coverage.xml
+report.out
+report.xml
+
+.vscode/
