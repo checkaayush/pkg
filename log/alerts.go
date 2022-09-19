@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var a = "123"
+
 // AlertPriority is a type representing priority of an alert.
 type AlertPriority int
 
