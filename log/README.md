@@ -45,7 +45,7 @@ Define an alert:
 ```go
 package alert
 
-const(
+const (
         svcName = "PLV_MSG_SOME_SERVICE"
 )
 
