@@ -31,11 +31,11 @@ jobs:
     - name: Go Patch Coverage
       uses: seriousben/go-patch-cover-action@v1.1.2
 
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        files: ./coverage.out
-        flags: unittests
-        name: codecov-umbrella
-        fail_ci_if_error: true
-        verbose: true
+    # - name: Upload coverage to Codecov
+    #   uses: codecov/codecov-action@v3
+    #   with:
+    #     files: ./coverage.out
+    #     flags: unittests
+    #     name: codecov-umbrella
+    #     fail_ci_if_error: true
+    #     verbose: true
