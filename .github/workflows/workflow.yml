@@ -22,7 +22,7 @@ jobs:
       run: go build -v ./...
 
     - name: Test and generate coverage report
-      run: "go test -race -coverprofile=coverage.out -covermode=count ./..."
+      run: "go test -coverprofile=coverage.out -covermode=count ./..."
     
     - name: Go Patch Coverage
       uses: seriousben/go-patch-cover-action@v1.1.2
