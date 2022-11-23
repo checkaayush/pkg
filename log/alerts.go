@@ -45,3 +45,7 @@ func NewAlert(priority AlertPriority, servicePrefix string, alertType string) lo
 		alertType:     alertType,
 	}
 }
+
+func add(a, b int) int {
+	return a + b
+}
