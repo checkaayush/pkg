@@ -1,17 +1,17 @@
 package log
 
-import (
-	"testing"
+// import (
+// 	"testing"
 
-	"github.com/stretchr/testify/require"
-)
+// 	"github.com/stretchr/testify/require"
+// )
 
-func TestAlert(t *testing.T) {
+// func TestAlert(t *testing.T) {
 
-	assert := require.New(t)
+// 	assert := require.New(t)
 
-	a := NewAlert(AlertP0, "testSvc", "type1")
+// 	a := NewAlert(AlertP0, "testSvc", "type1")
 
-	assert.Equal(a.Priority(), AlertP0)
-	assert.Equal(a.String(), "P0::testSvc::type1")
-}
+// 	assert.Equal(a.Priority(), AlertP0)
+// 	assert.Equal(a.String(), "P0::testSvc::type1")
+// }
