@@ -20,6 +20,8 @@ if err != nil {
 defer logger.Sync()
 ```
 
+> Note: Use environment `local` for getting colored log levels during local development for better readability.
+
 **Log with fields:**
 
 Logger methods that end with `w` allows you to log with fields. For example:
