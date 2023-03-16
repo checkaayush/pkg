@@ -41,6 +41,9 @@ func NewZapLogger(config *Config) (Logger, error) {
 
 	var zapCfg zap.Config
 	switch config.Environment {
+	case "local":
+		zapCfg = zap.NewDevelopmentConfig()
+		zapCfg.EncoderConfig.EncodeLevel = zapcore.CapitalColorLevelEncoder
 	case "dev":
 		fallthrough
 	case "development":
